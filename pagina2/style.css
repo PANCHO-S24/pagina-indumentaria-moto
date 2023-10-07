@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+  
+.titulo {
+    color: rgb(red, green, blue);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+  
+header {
+    width: 100%;
+    height: 600px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e507a, #bdc3c7), url(img/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+  
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+  
+  nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+  
+  header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.textos-header h1 {
+    font-size: 50px;
+    color: black;
+}
+  
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+  
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+  
+.contenido-textos h3 span {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-right: 3px;
+}
+  
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+  
+.portafolio {
+    background: #000000;
+}
+
+.imagen-port {
+    float: left;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #000000;
+    overflow: hidden;
+}
+  /* Estilo de las imágenes dentro de las cartas */
+.imagen-port img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+/* Estilo del contenedor de las cartas */
+.clientes-contenedor {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ff00e6;
+    height: 450px;
+}
+  /* Estilo de las cartas de los clientes */
+.card {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 210px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffffa1;
+    display: inline-block;
+} 
+  /* Estilo de las imágenes de los clientes */
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+  /* Estilo del nombre del cliente */
+.card h4.name {
+ margin-top: 10px;
+ font-size: 18px;
+}
+  
+  /* Estilo del testimonio del cliente */
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Estilos para la sección "Nuestros Servicios" */
+.servicios {
+    text-align: center;
+    padding: 40px 0; /* Espaciado interior superior e inferior */
+    background-color: #000000;
+}
+  
+.servicios .titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Espacio inferior del título */
+}  
+.servicios .cards {
+    display: flex; /* Hace que las cartas se coloquen en una fila horizontal */
+    justify-content: center; /* Centra las cartas horizontalmente */
+    gap: 20px; /* Espacio horizontal entre las cartas */
+}
+  
+  /* Estilos para cada carta de servicio */
+.servicio-1 {
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.servicio-1 img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Espacio inferior de la imagen */
+}
+  
+.servicio-1 h3 {
+    font-size: 18px;
+    color: #333;
+}
+  
+.servicio-1 p {
+    font-size: 14px;
+    color: #555;
+}
+.servicios {
+  
+}
+.contenedor-footer{
+    background-color: #000000;
+}
+.contenedor-footer p {
+    color: rgb(35, 72, 218)
+}
+.contenedor-footer h4{
+    color: #ffffff;
+}
